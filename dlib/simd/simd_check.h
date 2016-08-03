@@ -51,6 +51,11 @@
                 #define DLIB_HAVE_AVX2
             #endif
         #endif
+        // #ifdef __ARM_NEON
+        //     #ifndef DLIB_HAVE_NEON
+        //         #define DLIB_HAVE_NEON
+        //     #endif            
+        // #endif
     #endif
 #endif
 
